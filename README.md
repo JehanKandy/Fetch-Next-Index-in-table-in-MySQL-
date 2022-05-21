@@ -102,3 +102,26 @@ check it in
 
 <br>user_add() function<br>
 
+    function add_user($id, $email, $usr_name){
+        $con = Connection();
+        $get_next_id = strval($_SESSION['nextId']);
+
+        $check_sql = "SELECT * FROM user_tbl WHERE id = '$id' || email = '$email'";
+        $check_sql_result = mysqli_query($con, $check_sql);
+
+        $check_sql_nor = mysqli_num_rows($check_sql_result);
+
+        if($check_sql_nor > 0){
+            return "<center>&nbsp<div class='alert alert-danger col-10' role='alert'>User Already Exists..!</div>&nbsp</center>";
+        }else{
+            if($id == $get_next_id){
+                $insert_user = "INSERT INTO user_tbl(id,email,usr_name)VALUES('$id','$email','$usr_name')";
+                $insert_user_result = mysqli_query($con, $insert_user);
+                header("location:index.php");
+            }
+            else{
+                return "<center>&nbsp<div class='alert alert-danger col-10' role='alert'>Your entered id is ".$id."...! Enter ".$get_next_id." as Index                                   Number</div>&nbsp</center>";
+            }
+
+        }        
+    }
