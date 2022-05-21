@@ -89,3 +89,12 @@ I fetch  the last index using following lines <br>
         $get_last_index_result = mysqli_query($con, $get_last_index);
 
         $last_index = mysqli_fetch_assoc($get_last_index_result);
+        
+and then I want to get next index, so that <br>
+I add 1 for the last index like following<br>
+
+        $next_index = $last_index['id'] + 1;
+        echo $next_index;
+
+and last line is optical, 
+        
