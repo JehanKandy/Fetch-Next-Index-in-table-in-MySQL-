@@ -130,4 +130,14 @@ check it in
 converting Session to String like following<br>
 
     $get_next_id = strval($_SESSION['nextId']);
-   
+  
+then check it, 
+
+            if($id == $get_next_id){
+                $insert_user = "INSERT INTO user_tbl(id,email,usr_name)VALUES('$id','$email','$usr_name')";
+                $insert_user_result = mysqli_query($con, $insert_user);
+                header("location:index.php");
+            }
+            else{
+                return "<center>&nbsp<div class='alert alert-danger col-10' role='alert'>Your entered id is ".$id."...! Enter ".$get_next_id." as Index                                   Number</div>&nbsp</center>";
+            }
