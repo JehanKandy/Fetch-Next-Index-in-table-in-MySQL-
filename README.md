@@ -100,7 +100,7 @@ and last line is optical,
 
 *****************************************
 
-<b>This is Optical<b>
+<b>This is Optical<b><br>
 
 
 <br>because I want to check user input id is the next id, so then I get tha last id and <br>
