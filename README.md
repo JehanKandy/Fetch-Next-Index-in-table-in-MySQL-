@@ -97,4 +97,8 @@ I add 1 for the last index like following<br>
         echo $next_index;
 
 and last line is optical, 
-<br>because I want to check user input id is the next id, so then I get tha last id and 
+<br>because I want to check user input id is the next id, so then I get tha last id and <br>
+check it in
+
+<br>user_add() function<br>
+
