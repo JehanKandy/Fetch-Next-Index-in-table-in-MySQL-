@@ -96,9 +96,12 @@ I add 1 for the last index like following<br>
         $next_index = $last_index['id'] + 1;
         echo $next_index;
 
+*****************************************
+
 and last line is optical, 
 
-*****************************************
+        $_SESSION['nextId'] = $next_index;      
+
 
 <b>This is Optical</b><br>
 
