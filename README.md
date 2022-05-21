@@ -82,3 +82,10 @@ fetch next index in MySQL table
         $_SESSION['nextId'] = $next_index;      
     }
 
+According to above part of code, <br>
+I fetch  the last index using following lines <br>
+
+        $get_last_index = "SELECT id FROM user_tbl ORDER BY id DESC LIMIT 1";
+        $get_last_index_result = mysqli_query($con, $get_last_index);
+
+        $last_index = mysqli_fetch_assoc($get_last_index_result);
