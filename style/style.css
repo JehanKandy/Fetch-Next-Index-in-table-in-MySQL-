@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Koulen&family=Oswald&display=swap');
+.home-page {
+    margin-top: 50px;
+}
+
+.home-page h1 {
+    font-family: 'Koulen', cursive;
+    font-size: 500%;
+}
+
+.next-index h3 {
+    font-family: 'Akshar', sans-serif;
+    font-size: 250%;
+}
+
+.next-index span {
+    color: red;
+}
+
+.usr-form p {
+    font-family: 'Akshar', sans-serif;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+}
+
+.usr-form .input {
+    width: 320px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+}
+
+.usr-form .add-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 320px;
+    border-radius: 5px;
+    font-size: 120%;
+}
+
+.usr-form .add-btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.all_usr {
+    font-family: 'Oswald', sans-serif;
+}
+
+.usr-tbl {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 100%;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.usr-tbl thead tr {
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.usr-tbl th,
+td {
+    padding: 12px 15px;
+}
+
+.usr-tbl tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.usr-tbl tbody tr:last-of-type {
+    border-bottom: 2px solid black;
+}
