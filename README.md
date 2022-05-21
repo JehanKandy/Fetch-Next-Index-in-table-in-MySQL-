@@ -125,3 +125,8 @@ check it in
 
         }        
     }
+
+
+converting Session to String like following<br>
+    $get_next_id = strval($_SESSION['nextId']);
+   
