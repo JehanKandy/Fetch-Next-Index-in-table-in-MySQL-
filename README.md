@@ -63,7 +63,7 @@ fetch next index in MySQL table
         }
     ?>
 
-
+<br><br>
 <b>Fetch Next Index....</b><br>
 
     function next_id(){
