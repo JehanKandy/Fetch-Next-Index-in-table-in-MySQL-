@@ -2,6 +2,8 @@
 fetch next index in MySQL table
 <br><br>
 <b>Code : </b>
+<br>function/functions.php<br>
+
 
     <?php 
         use FTP\Connection; 
