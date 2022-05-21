@@ -62,3 +62,20 @@ fetch next index in MySQL table
             $_SESSION['nextId'] = $next_index;      
         }
     ?>
+
+
+<b>Fetch Next Index....</b><br>
+
+    function next_id(){
+        $con = Connection();
+
+        $get_last_index = "SELECT id FROM user_tbl ORDER BY id DESC LIMIT 1";
+        $get_last_index_result = mysqli_query($con, $get_last_index);
+
+        $last_index = mysqli_fetch_assoc($get_last_index_result);
+
+        $next_index = $last_index['id'] + 1;
+        echo $next_index;
+        $_SESSION['nextId'] = $next_index;      
+    }
+
