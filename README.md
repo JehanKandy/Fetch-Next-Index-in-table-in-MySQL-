@@ -141,3 +141,6 @@ then check it,
             else{
                 return "<center>&nbsp<div class='alert alert-danger col-10' role='alert'>Your entered id is ".$id."...! Enter ".$get_next_id." as Index                                   Number</div>&nbsp</center>";
             }
+
+in here $id is user input id<br>
+
