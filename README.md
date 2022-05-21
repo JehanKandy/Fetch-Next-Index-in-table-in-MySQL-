@@ -106,7 +106,7 @@ and last line is optical,
 <b>This is Optical</b><br>
 
 
-<br>because I want to check user input id is the next id, so then I get tha last id and <br>
+<br>because I want to check user input id is equal to last index+1 in table the next id, so then I get tha last id and <br>
 check it in
 
 <br>user_add() function<br>
