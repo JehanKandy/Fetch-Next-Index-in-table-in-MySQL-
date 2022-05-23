@@ -1,8 +1,8 @@
 # Fetch-Next-Index-in-table-in-MySQL-
 fetch next index in MySQL table
 <br><br>
-all Error Headling of this code
- -- can not enter entered id in the table
+<b>All Error Headling of this code</b><br>
+ -- can not enter entered id in the table<br>
  -- only can enter 
 
 <br><br>
