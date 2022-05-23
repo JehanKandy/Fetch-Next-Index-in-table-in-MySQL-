@@ -3,7 +3,8 @@ fetch next index in MySQL table
 <br><br>
 <b>All Error Headling of this code</b><br>
  -- can not enter entered id in the table<br>
- -- only can enter 
+ -- only can enter next id according to the following table in project<br>
+ -- 
 
 <br><br>
 <b>Code : </b>
