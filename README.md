@@ -1,6 +1,11 @@
 # Fetch-Next-Index-in-table-in-MySQL-
 fetch next index in MySQL table
 <br><br>
+all Error Headling of this code
+ -- can not enter entered id in the table
+ -- only can enter 
+
+<br><br>
 <b>Code : </b>
 <br>function/functions.php<br>
 
