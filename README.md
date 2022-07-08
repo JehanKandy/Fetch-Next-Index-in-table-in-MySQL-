@@ -5,7 +5,7 @@ fetch next index in MySQL table
  -- can not enter entered id in the table<br>
  -- only can enter next id according to the following table in project<br>
 
-
+university project
 <br><br>
 <b>Code : </b>
 <br>function/functions.php<br>
